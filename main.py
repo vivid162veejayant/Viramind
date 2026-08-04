@@ -1,6 +1,7 @@
 from boot import boot
 from messages import get_status
 import moods
+import time
 
 
 print("====================================")
@@ -30,7 +31,8 @@ while True:
     
     # Check for the exit condition
     if user_input.lower() == 'exit':
-        print("Goodbye!")
+        time.sleep(0.75)
+        print("Bye now i'll also drink a bit coffee")
         break
         
     print("Complier error: though it would be funny.")
